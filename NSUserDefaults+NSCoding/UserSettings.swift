@@ -14,7 +14,7 @@ final class UserSettings { // 7. Создаем класс UserSettings
         case userName
         case userModel // 26. Создаем новый кейс userModel
     }
-       
+        
     // 25. Теперь добовляем новое свойство с помощью которого мы будем сохранять userModel внутри UserDefaults
     static var userModel: UserModel! {
         get { // 30.2 Тут декодируем уже через класс NSKeyedUnarchiver и свойство .unarchiveTopLevelObjectWithData и кастим до UserModel
