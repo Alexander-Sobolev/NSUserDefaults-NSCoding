@@ -13,6 +13,7 @@
 		B478889925EA9B3A008FD4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B478889725EA9B3A008FD4BC /* Main.storyboard */; };
 		B478889B25EA9B3B008FD4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B478889A25EA9B3B008FD4BC /* Assets.xcassets */; };
 		B478889E25EA9B3B008FD4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B478889C25EA9B3B008FD4BC /* LaunchScreen.storyboard */; };
+		B47888A725EA9DAA008FD4BC /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47888A625EA9DAA008FD4BC /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B478889A25EA9B3B008FD4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B478889D25EA9B3B008FD4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B478889F25EA9B3B008FD4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47888A625EA9DAA008FD4BC /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B478889125EA9B3A008FD4BC /* AppDelegate.swift */,
 				B478889325EA9B3A008FD4BC /* SceneDelegate.swift */,
 				B478889525EA9B3A008FD4BC /* ViewController.swift */,
+				B47888A625EA9DAA008FD4BC /* UserSettings.swift */,
 				B478889725EA9B3A008FD4BC /* Main.storyboard */,
 				B478889A25EA9B3B008FD4BC /* Assets.xcassets */,
 				B478889C25EA9B3B008FD4BC /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B478889625EA9B3A008FD4BC /* ViewController.swift in Sources */,
+				B47888A725EA9DAA008FD4BC /* UserSettings.swift in Sources */,
 				B478889225EA9B3A008FD4BC /* AppDelegate.swift in Sources */,
 				B478889425EA9B3A008FD4BC /* SceneDelegate.swift in Sources */,
 			);
