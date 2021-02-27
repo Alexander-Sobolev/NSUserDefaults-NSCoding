@@ -30,7 +30,7 @@ final class UserSettings { // 7. Создаем класс UserSettings
             // 30. userModel это модель let userModel: UserModel и ее нужно сконвертировать в let savedData: Data и только потом вставить в UserDefaults // try? так как тут функция может вернуть и ошибку далее с помощью класса под названием NSKeyedArchiver достаем функцию .archivedData(withRootObject: requiringSecureCoding:) в withRootObject: передаем userModel которая декодируется в Data
             if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: userModel, requiringSecureCoding: false) {
                     print("value: \(userModel) was added to key \(key)")
-                    defaults.set(savedData, forKey: key) // 30.1 в .set выбираем любое 
+                    defaults.set(savedData, forKey: key) // 30.1 в .set выбираем любое  
                 } else {
                     defaults.removeObject(forKey: key)
                 }
